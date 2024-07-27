@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/logoutMenuItem"
+        android:icon="@drawable/ic_baseline"
+        android:title="Logout"
+        app:showAsAction=""/>
+
+    <item android:id="@+id/NotificationsMenu"
+        android:title="Notifications"
+        app:showAsAction="never">
+
+        <menu>
+            <item android:id="@+id/setTimeOfDayItem"
+                android:title="Set time of day"/>
+
+            <item android:id="@+id/dontNotifyMeItem"
+                android:title="Don't notify me"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Biometrics"
+        android:title="Biometrics">
+        <menu>
+            <item
+                android:id="@+id/enableBiometrics"
+                android:title="Enable biometrics"/>
+            <item
+                android:id="@+id/disableBiometrics"
+                android:title="Disable biometrics"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/show_prog"
+        android:title="Show progress"
+        />
+</menu>

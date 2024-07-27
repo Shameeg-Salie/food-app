@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">foodApplication</string>
+    <string name="Input_prompt">What did you eat today ?</string>
+    <string name="Input_amount">How many servings ?</string>
+    <string name="List_Header">Your Food</string>
+    <string name="AddToListBt">Add</string>
+    <string name="SubmitButton">Continue</string>
+    <string name="ClearAllBt">Clear All</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
